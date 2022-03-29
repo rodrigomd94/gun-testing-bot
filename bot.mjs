@@ -27,7 +27,7 @@ var interval = setInterval(() => {
       transactionsNode.get(tx).map().put(randomStrings[random])
     })
   })
-}, 3000)
+}, 500)
 
 //replacing all data of each tx by null?
 var interval2 = setInterval(() => {
@@ -37,4 +37,4 @@ var interval2 = setInterval(() => {
       transactionsNode.get(tx).put(null)
     })
   })
-}, 6000)
+}, 800)
